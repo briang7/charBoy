@@ -87,8 +87,8 @@ var allEnemies = [];
 
 // creates new enemies and gives their starting locations
 var addEnemies = function() {
-  allEnemies.push(new Enemy(-150, 60));
-  allEnemies.push(new Enemy(-2, 60));
+  allEnemies.push(new Enemy(-150, 50));
+  allEnemies.push(new Enemy(-2, 50));
   allEnemies.push(new Enemy(-150, 140));
   allEnemies.push(new Enemy(-2,140));
   allEnemies.push(new Enemy(-150,230));
