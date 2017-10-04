@@ -29,8 +29,8 @@ Enemy.prototype.update = function(dt) {
 
   if (player.x >= this.x - 40
     && player.x <= this.x + 40){
-    if(player.y >= this.y - 30
-      && player.y <= this.y + 30) {
+    if(player.y >= this.y - 50
+      && player.y <= this.y + 25) {
         player.reset();
         score-=1;
     }
